@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { CatalogComponent } from './components/catalog/catalog.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LocationComponent } from './components/location/location.component';
+import { AboutComponent } from './components/about/about.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { WhatsNewComponent } from './components/whats-new/whats-new.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { LocationComponent } from './components/location/location.component';
     HeaderComponent,
     CatalogComponent,
     ContactComponent,
-    LocationComponent
+    LocationComponent,
+    AboutComponent,
+    FooterComponent,
+    WhatsNewComponent
   ],
   imports: [
     BrowserModule,

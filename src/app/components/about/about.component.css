@@ -1,0 +1,140 @@
+/* About Us Section */
+.about-us-section {
+    background-color: #000; /* Black background */
+    padding-top: 80px;
+    margin-bottom: 0;
+}
+  
+.about-us-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+  
+.title-section h1 {
+    font-size: 42px;  /* Increased font size for larger heading */
+    font-weight: bold;
+    color: #fff;  /* White text */
+}
+  
+.title-section h1 span {
+    color: #e74c3c;  /* Red accent color */
+}
+  
+.title-section p {
+    font-size: 20px;  /* Larger subtitle text */
+    color: #e74c3c;  /* Red subtitle */
+    margin-top: 15px;
+}
+  
+.about-images {
+    margin: 50px 0;  /* Spacing between image rows */
+}
+  
+.about-images img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+}
+  
+.about-box {
+    background-color: #fff;  /* White box */
+    padding: 30px;  /* Increased padding */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);  /* Stronger shadow */
+}
+  
+.about-box h3 {
+    font-size: 28px;  /* Larger heading size */
+    margin-bottom: 20px;
+    color: #e74c3c;  /* Red heading */
+}
+  
+.about-box p, .about-box ul {
+    color: #000;  /* Black text */
+    font-size: 18px;  /* Larger content text */
+    line-height: 1.7;
+}
+  
+.about-box ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.about-box ul li {
+    margin-bottom: 12px;
+}
+  
+.about-box i {
+    font-size: 32px;  /* Larger icons */
+    color: #e74c3c;  /* Red icons */
+    margin-bottom: 15px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .title-section h1 {
+        font-size: 32px; /* Smaller font size for mobile */
+    }
+
+    .title-section p {
+        font-size: 16px;
+    }
+
+    .about-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-images img {
+        margin-bottom: 20px;
+    }
+
+    .about-box {
+        padding: 20px;
+    }
+
+    .about-box h3 {
+        font-size: 24px;
+    }
+
+    .about-box p, .about-box ul {
+        font-size: 16px;
+    }
+
+    .about-box i {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .title-section h1 {
+        font-size: 28px; /* Smaller for extra small screens */
+    }
+
+    .title-section p {
+        font-size: 14px;
+    }
+
+    .about-box {
+        padding: 15px;
+    }
+
+    .about-box h3 {
+        font-size: 20px;
+    }
+
+    .about-box p, .about-box ul {
+        font-size: 14px;
+    }
+
+    .about-box i {
+        font-size: 24px;
+    }
+}

@@ -1,9 +1,15 @@
-.ag-format-container {
-    width: 1142px;
+.format-container {
     margin: 0 auto;
+    background-color: #000;
   }
-  
-  
+  #catalog{
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .format-container h1 span {
+    color: #e50914;
+  }
   body {
     background-color: #000;
   }
