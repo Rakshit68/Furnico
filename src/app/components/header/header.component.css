@@ -1,0 +1,29 @@
+.navbar-nav .nav-link {
+    padding-right: 20px;
+    color: #e50914;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    padding-left: 10px;
+    margin-right: 30%;
+  }
+  
+  .navbar-nav .fas {
+    font-size: 1.5rem;
+  }
+
+  .navbar-collapse{
+    margin-left: 10%;
+    justify-content:end;
+  }
+
+  .logo{
+    max-width: 100%;
+    width: 15%;
+    height: 15%;
+  }
